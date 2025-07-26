@@ -15,21 +15,6 @@
 - **Template Tag**: Простое использование через `{% draw_menu 'menu_name' %}`
 - **Именованные URL**: Поддержка как явных URL, так и именованных URL
 
-## 🚀 Быстрый старт
-
-### ⚡ Быстрая настройка (для опытных разработчиков)
-```bash
-git clone <repository-url>
-cd django-tree-menu
-python -m venv venv
-venv\Scripts\activate  # Windows
-pip install -r requirements.txt
-python manage.py makemigrations tree_menu
-python manage.py migrate
-python manage.py create_demo_menu
-python manage.py runserver
-```
-
 ### 1. Клонирование и установка
 
 ```bash
@@ -241,18 +226,9 @@ python manage.py migrate
 ```bash
 chmod +x manage.py
 ```
+### Визуал
+<img width="1280" height="600" alt="image" src="https://github.com/user-attachments/assets/5e98a55d-7b94-417c-aec1-94833cd2c57e" />
 
-## 📝 Лицензия
+<img width="1383" height="506" alt="image" src="https://github.com/user-attachments/assets/8934bcbc-13b6-4df8-ae46-be37bb40d561" />
 
-MIT License - см. файл LICENSE для деталей.
 
-## 🤝 Вклад в проект
-
-1. Форкните репозиторий
-2. Создайте ветку для новой функции
-3. Внесите изменения
-4. Создайте Pull Request
-
-## 📞 Поддержка
-
-Если у вас есть вопросы или предложения, создайте Issue в репозитории. 
